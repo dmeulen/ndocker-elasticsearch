@@ -1,0 +1,6 @@
+PORTS = \
+  --publish 9200:9200 \
+  --publish 9300:9300 \
+
+ENV = \
+  -e ES_JAVA_OPTS="-Xms1g -Xmx1g"
